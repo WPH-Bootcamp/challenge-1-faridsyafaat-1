@@ -1,12 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge-1 Simple Landing Page with Html and CSS</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <!-- Code Here -->
-</body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <div class="logo">
+        <h2>Farid Syafaat</h2>
+      </div>
+      <nav class="list">
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#">Sertifikat</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Beranda-->
+      <div class="content">
+        <div class="description">
+          <h1 class="title">Web Developer</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+            sunt recusandae voluptate neque dolorum autem alias, blanditiis
+            deserunt doloribus eveniet in, est debitis error perspiciatis! Quae
+            vitae nisi dolorem corporis.
+          </p>
+          <button>Kolaborasi</button>
+        </div>
+        <div class="image">
+          <img src="image/farid.png" alt="profile" />
+        </div>
+      </div>
+
+      <!--Tentang-->
+      <div class="content" id="about">
+        <div class="image-about">
+          <img src="image/farid2.jpeg" />
+        </div>
+        <div class="description">
+          <div class="about-title">
+            <h2>Tentang Saya</h2>
+            <div class="about-container">
+              <div class="about-box">
+                <i class="fas fa-medal"></i>
+                <h3>Kualifikasi</h3>
+                <p>Sertifikat Kompetensi</p>
+              </div>
+              <div class="about-box">
+                <i class="fas fa-headset"></i>
+                <h3>Layanan</h3>
+                <p>Full Support 24 jam</p>
+              </div>
+              <div class="about-box">
+                <i class="fas fa-briefcase"></i>
+                <h3>Pengalaman</h3>
+                <p>Lebih dari 2 tahun</p>
+              </div>
+              <div class="about-box">
+                <i class="fas fa-user-graduate"></i>
+                <h3>Pendidikan</h3>
+                <p>S2 Teknologi Pembelajaran</p>
+              </div>
+            </div>
+            <div class="about-paragraf">
+              <p>
+                Saya adalah seorang web developer yang berpengalaman dalam
+                membuat situs web yang menarik dan fungsional.
+              </p>
+              <p>
+                Selalu berusaha memberikan yang terbaik dalam setiap proyek yang
+                saya kerjakan.
+              </p>
+              <a href="#">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="social-media">
+          <ul>
+            <li>
+              <a href=""><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+  </body>
 </html>
