@@ -23,7 +23,7 @@
           <li><a href="#">Beranda</a></li>
           <li><a href="#about">Tentang</a></li>
           <li><a href="#portofolio">Portofolio</a></li>
-          <li><a href="#kontak">Kontak</a></li>
+          <li><a href="#contact">Kontak</a></li>
         </ul>
       </nav>
     </header>
@@ -31,7 +31,7 @@
     <main>
       <!-- Beranda-->
       <div class="content">
-        <div class="description">
+        <div class="content-description">
           <h1 class="title">Web Developer</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
@@ -110,6 +110,48 @@
         </div>
       </div>
 
+      <!-- Kontak -->
+      <div class="content" id="contact">
+        <div class="contact-detail">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Alamat</div>
+            <div class="text-one">Pandeglang</div>
+            <div class="text-two">Banten - Indonesia</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone"></i>
+            <div class="topic">WhatsApp</div>
+            <div class="text-one">+6287126542</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">faridsobang01@gmail.com</div>
+          </div>
+        </div>
+        <div class="content-description">
+          <div class="contact-form">
+            <h2>Kirim Pesan</h2>
+            <p>
+              Jika anda berminat dan memiliki pekerjaan yang sesuai untuk saya
+              kerjakan atau ada pertanyaan yang terkait dengan pekerjaan saya.
+              Silahkan jangan ragu untuk menghubungi saya, dengan senang hati
+              saya akan merespons pesan anda.
+            </p>
+            <form action="" autocomplete="off">
+              <label for="name">Nama:</label>
+              <input type="text" name="name" id="name" required />
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required />
+              <label for="message">Pesan:</label>
+              <textarea name="message" id="message" rows="4"></textarea>
+              <button>Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
       <aside>
         <div class="social-media">
           <ul>
@@ -129,5 +171,9 @@
         </div>
       </aside>
     </main>
+
+    <footer>
+      <p>Copyright &copy; Farid Syafaat 2026 - All rights reserved.</p>
+    </footer>
   </body>
 </html>

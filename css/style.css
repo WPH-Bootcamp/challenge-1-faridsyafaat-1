@@ -84,7 +84,7 @@ main .content .description p {
   font-size: 1.2rem;
 }
 
-main .content .description button {
+main .content .content-description button {
   padding: 0.8rem 2.5rem;
   margin-block-start: 1rem;
   text-transform: uppercase;
@@ -99,7 +99,7 @@ main .content .description button {
   transition: all 0.15s ease-in;
 }
 
-main .content .description button:hover {
+main .content .content-description button:hover {
   border: 3px solid #2d3e50;
   background-color: transparent;
   color: #2d3e50;
@@ -236,6 +236,7 @@ main aside .social-media a:hover {
 .portofolio {
   display: block;
   text-align: center;
+  scroll-margin-top: 100px;
 }
 
 .portofolio-title h2 {
@@ -275,4 +276,66 @@ main aside .social-media a:hover {
 .portofolio-item:hover {
   transform: scale(1.1);
   z-index: 2;
+}
+
+/* Kontak*/
+.contact-detail {
+  width: 25%;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+
+.contact-detail .details {
+  margin: 14px;
+  text-align: center;
+}
+
+.contact-detail .details i {
+  font-size: 30px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.contact-detail .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact-detail .details .text-one,
+.contact-detail .details .text-two {
+  font-size: 14px;
+  color: #afafb6;
+}
+
+.contact-form h2 {
+  margin-bottom: 5px;
+}
+
+.contact-form form {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-form label {
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+footer {
+  padding: 20px;
+  color: #2d3e50;
+  text-align: center;
 }
