@@ -7,7 +7,6 @@
 }
 
 body {
-  height: 100vh;
   font-family: 'Quicksand', sans-serif;
   margin: 0;
   display: flex;
@@ -21,10 +20,9 @@ header.container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-block: 1rem;
-  position: fixed;
+  padding: 1rem;
+  position: sticky;
   top: 0;
-  left: 0;
   z-index: 999;
   background-color: #fff;
 }
