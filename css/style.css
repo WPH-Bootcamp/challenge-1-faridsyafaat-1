@@ -30,7 +30,7 @@ header.container {
 }
 
 header.container .list ul {
-  padding-left: 0;
+  padding-right: 0;
   display: flex;
   justify-content: center;
   gap: 2rem 1rem;
@@ -232,4 +232,49 @@ main aside .social-media a:hover {
   border: 3px solid #2d3e50;
   background-color: transparent;
   color: #2d3e50;
+}
+
+/* Portofolio */
+.portofolio {
+  display: block;
+  text-align: center;
+}
+
+.portofolio-title h2 {
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+}
+
+.portofolio-title p {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.portofolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.portofolio-item {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.portofolio-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.portofolio-item:hover {
+  transform: scale(1.1);
+  z-index: 2;
 }
